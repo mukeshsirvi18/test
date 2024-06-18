@@ -1,0 +1,35 @@
+# Sample YAML Configuration File
+
+server:
+  port: 8080
+  host: localhost
+
+database:
+  name: mydatabase
+  user: myuser
+  password: mypassword
+
+logging:
+  level: debug
+  file: /var/log/myapp.log
+
+email:
+  smtp:
+    host: smtp.example.com
+    port: 587
+    username: user@example.com
+    password: secret_password
+  notifications:
+    - name: John Doe
+      email: john.doe@example.com
+      active: true
+    - name: Jane Smith
+      email: jane.smith@example.com
+      active: false
+
+features:
+  - feature1
+  - feature2
+  - feature3
+
+
